@@ -164,7 +164,7 @@ const  checkinitial = () =>{
            </div>
           
            <p>{status}</p>
-           {winner || status=='Draw' || status[0]=='t' ?<button className="reset"
+           {winner || status=='draw' || status[0]=='t' ?<button className="reset"
            onClick={()=>window.location.reload(false)}>Reset Game</button>:<div></div>}
         </div>
       );
